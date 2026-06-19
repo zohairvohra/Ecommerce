@@ -1,6 +1,6 @@
 import ProductCard from '../components/ProductCard';
 
-function Products({ products, cart, onAddToCart }) {
+function Products({ products, cart, onAddToCart, loggedInUser }) {
   return (
     <div className="products-page">
       <h2>Shop the Drop</h2>
@@ -11,6 +11,7 @@ function Products({ products, cart, onAddToCart }) {
             product={product}
             quantityInCart={cart[product.id] || 0}
             onAddToCart={onAddToCart}
+            loggedInUser={loggedInUser}
           />
         ))}
       </div>

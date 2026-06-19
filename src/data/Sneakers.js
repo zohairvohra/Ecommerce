@@ -1,9 +1,8 @@
 import nikeDunkLow from '../assets/images/WhatsApp Image 2026-06-17 at 3.53.49 PM (1).jpeg';
 import newBalance574 from '../assets/images/WhatsApp Image 2026-06-17 at 3.53.49 PM.jpeg';
-import vansWardLow from '../assets/images/WhatsApp Image 2026-06-17 at 3.53.50 PM (1).jpeg';
-import nikeRunning from '../assets/images/WhatsApp Image 2026-06-17 at 3.53.50 PM.jpeg';
+import vansWardLow from '../assets/images/WhatsApp Image 2026-06-17 at 3.53.50 PM.jpeg';
+import nikeRunning from '../assets/images/WhatsApp Image 2026-06-17 at 3.53.50 PM (1).jpeg';
 import vansEraKhakiCL from '../assets/images/WhatsApp Image 2026-06-17 at 3.53.51 PM.jpeg';
-
 
 const Sneakers = [
     {id: 1, name: 'Nike Dunk Low', size: 44 , stock: 10, price: 4500, image: nikeDunkLow},

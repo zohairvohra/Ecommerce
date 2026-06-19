@@ -1,10 +1,10 @@
-import React from "react";
-
 function CartDrawer({ cart, products, onRemove }) {
-    const items = Object.keys(cart).map((productId) => {
-        const product = products.find((p) => p.id === Number(productId));
-        return { ...product, quantity: cart[productId] };
-    });
+    const items = Object.keys(cart)
+        .map((productId) => {
+            const product = products.find((p) => p.id === Number(productId));
+            return { product, quantity: cart[productId] };
+        })
+        .filter((item) => item.product !== undefined);
 
     const total = items.reduce((sum, item) => sum + item.product.price * item.quantity, 0);
 
